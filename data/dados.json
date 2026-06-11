@@ -1,0 +1,79 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Ana Lima",
+      "telefone": "(11) 90000-1111",
+      "prioridade": true,
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Costa",
+      "telefone": "(11) 90000-2222",
+      "prioridade": false,
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "nome": "Carla Mendes",
+      "telefone": "(11) 90000-3333",
+      "prioridade": false,
+      "ativo": true
+    }
+  ],
+  "atendentes": [
+    {
+      "id": 1,
+      "nome": "Mariana",
+      "ocupado": false
+    },
+    {
+      "id": 2,
+      "nome": "Joao",
+      "ocupado": false
+    }
+  ],
+  "fila_prioridade": [],
+  "fila_comum": [],
+  "em_andamento": [],
+  "historico": [
+    {
+      "id": 100,
+      "cliente_id": 1,
+      "atendente_id": 1,
+      "data": "2026-06-09",
+      "entrada": "2026-06-09T09:00:00",
+      "inicio": "2026-06-09T09:05:00",
+      "fim": "2026-06-09T09:25:00",
+      "duracao_minutos": 20.0,
+      "espera_minutos": 5.0,
+      "prioridade": true
+    },
+    {
+      "id": 101,
+      "cliente_id": 2,
+      "atendente_id": 2,
+      "data": "2026-06-09",
+      "entrada": "2026-06-09T10:00:00",
+      "inicio": "2026-06-09T10:12:00",
+      "fim": "2026-06-09T10:42:00",
+      "duracao_minutos": 30.0,
+      "espera_minutos": 12.0,
+      "prioridade": false
+    },
+    {
+      "id": 102,
+      "cliente_id": 1,
+      "atendente_id": 2,
+      "data": "2026-06-10",
+      "entrada": "2026-06-10T08:30:00",
+      "inicio": "2026-06-10T08:34:00",
+      "fim": "2026-06-10T08:49:00",
+      "duracao_minutos": 15.0,
+      "espera_minutos": 4.0,
+      "prioridade": true
+    }
+  ],
+  "proximo_atendimento_id": 103
+}
